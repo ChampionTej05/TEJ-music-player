@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/bg_gradient_aboutus"
+    android:clickable="true">
+
+
+    <ImageView
+        android:id="@+id/avi_logo"
+        android:layout_width="273dp"
+        android:layout_height="185dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/about_image"
+        android:foregroundGravity="center_horizontal"
+        android:paddingTop="100dp" />
+
+
+    <TextView
+        android:id="@+id/line_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="222dp"
+        android:text="Developer: Rakshit Kathawate"
+        android:textColor="#212121"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:fontFamily="casual"/>
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="App Version 1.12"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="12dp"
+        android:fontFamily="cursive"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="176dp"
+        android:text="Guided By: Tanseer Saji"
+        android:fontFamily="casual"
+        android:textColor="#212121"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="126dp"
+        android:text="Image Credits: Sourav Roy"
+        android:fontFamily="casual"
+        android:textColor="#212121"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="66dp"
+        android:textStyle="bold"
+        android:fontFamily="casual"
+        android:text="With Love from R.A.P. Group"
+        android:textColor="#000000"/>
+
+
+</RelativeLayout>
+

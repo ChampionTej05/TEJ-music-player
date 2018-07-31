@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="90dp"
+        android:background="@drawable/tej_splash_screen"
+        android:layout_centerInParent="true"
+        android:minWidth="0dp"
+        android:minHeight="0dp"
+        android:id="@+id/ImageLogo"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="For Those Who Feel the MUSIC"
+        android:layout_below="@+id/ImageLogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        android:textColor="#ffffff"
+        android:fontFamily="cursive"/>
+    
+</RelativeLayout>
