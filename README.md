@@ -14,5 +14,5 @@ A Simple music player which helps you to make your mood go on with fluency and i
 
 This app was designed under the guidance of Tanseer Saji ,Android developer Internshala. I would be adding more features to the application over the time.  
 
-For any query reach me out at, Email: rkathawaterb@rknec.edu
+For any query reach me out at, Email: rkathawate098@gmail.com
 This Project looks great - it's ready to merge! :shipit:
